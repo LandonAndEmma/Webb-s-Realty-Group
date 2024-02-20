@@ -1,5 +1,5 @@
 :root {
-    --accent-color: #008afb;
+    --accent-color: #4fb0ff;
     --main-white: #f5f5f5;
     --main-gray: #373737;
     --main-light-gray: #969696;
@@ -18,6 +18,7 @@ html, body {
 }
 h1, h2 {
     font-style: italic;
+    font-size: 20px;
 }
 body {
     display: flex;
@@ -61,6 +62,7 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     display: flex;
+    font-size: 30px;
 }
 .container {
     display: flex;
@@ -81,6 +83,7 @@ a:hover {
 .content-center {
     flex: 1;
     max-width: 90vw;
+    font-size: 18px;
 }
 .svg-icon {
     width: 32px;
