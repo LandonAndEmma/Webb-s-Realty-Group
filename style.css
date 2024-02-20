@@ -18,7 +18,7 @@ html, body {
 }
 h1, h2 {
     font-style: italic;
-    font-size: 20px;
+    font-size: 25px;
 }
 body {
     display: flex;
@@ -62,7 +62,7 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     display: flex;
-    font-size: 30px;
+    font-size: 20px;
 }
 .container {
     display: flex;
