@@ -1,9 +1,9 @@
 :root {
-    --accent-color: #4fb0ff;
-    --main-white: #f5f5f5;
-    --main-gray: #373737;
-    --main-light-gray: #969696;
-    --main-background: #282828;
+    --accent-color: #df1f26;
+    --main-black: #000000;
+    --main-white: #ffffff;
+    --main-light-gray: #a0a0a0;
+    --main-background: #7a7a7a;
 }
 html, body {
     margin: 0;
@@ -37,7 +37,7 @@ a:hover {
     filter: brightness(75%);
 }
 #top-bar {
-    background-color: var(--main-gray);
+    background-color: var(--main-white);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -48,6 +48,7 @@ a:hover {
     margin: 0.1em 0;
     display: flex;
     justify-content: flex-start;
+    color: var(--main-black);
 }
 #top-bar-menu {
     flex: 2.5;
@@ -110,7 +111,7 @@ a:hover {
 }
 .project-entry {
     border-radius: 10px;
-    background-color: var(--main-gray);
+    background-color: var(--main-white);
     padding: 0.5em 1em;
     margin-bottom: 10px;
     min-height: 150px;
@@ -152,7 +153,7 @@ a:hover {
 }
 .pill {
     background-color: var(--main-background) !important;
-    color: var(--main-white) !important;
+    color: var(--main-black) !important;
     border-radius: 16px;
     font-size: 0.9em;
     padding: 0em 0.5em;
