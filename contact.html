@@ -45,14 +45,21 @@
                 <p>Welcome to Webb’s Realty Group, the most trusted realtor in Floyd County.<br>
                     We at Webb’s Realty Group prioritize our customers more than anything, we inspect every house with care before we put it on our website.<br>
                     If you have any questions go to our <a href="contact.html">Contact Page</a> or go to the bottom of our page and fill out the email form.</p>
-                <!--Form Code--> 
-                <form action=”mailto:herosoflyke@yahoo.com” method=”POST” enctype=”text/plain” name=”EmailForm”>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name"><br> 
-                <label for="ContactCommentt">Message:</label><br>
-                <textarea id=”ContactCommentt” rows=”6″ cols=”20″>    
-                <input type="submit" value="Send">
-                </form>
+                    <form action="send_email.php" method="post">
+                      <label for="firstName">First Name:</label>
+                      <input type="text" id="firstName" name="firstName" required>
+                      <br>
+                     
+                      <label for="email">Email Address:</label>
+                      <input type="email" id="email" name="email" required>
+                      <br>
+                     
+                      <label for="message">Message:</label>
+                      <textarea id="message" name="message" required></textarea>
+                      <br>
+                     
+                      <input type="submit" value="Send">
+                    </form>
         </div>   
     </main>
     <footer id="footer">
