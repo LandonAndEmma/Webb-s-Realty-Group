@@ -179,6 +179,12 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+img {
+    border-radius: 10%;
+}
+iframe {
+    border-radius: 10%;
+}
 /* Responsive layout */
 @media screen and (max-width: 600px) {
     #top-bar {
